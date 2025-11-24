@@ -1,30 +1,36 @@
-# Diretórios enormes que NÃO devem ir para o GitHub
+# Diretórios gigantes — NUNCA adicionar ao Git
 out/
 dist/
 ccache/
 .cache/
+tmp/
+userdata/
+metadata/
 
-# Imagens e binários gerados
+# Imagens
 *.img
-*.zip
 *.bin
+*.zip
 *.cpio
 *.elf
-*.ko
+*.tar
+*.tar.gz
 
-# Build intermediários
+# Artefatos
 *.o
 *.a
 *.so
 *.dex
 *.class
+*.tag
 *.apk
 *.jar
 
 # Logs
 *.log
 
-# Outros
+# Sistemas
 .DS_Store
 .idea/
 .vscode/
+*~
