@@ -1,0 +1,30 @@
+# Diretórios enormes que NÃO devem ir para o GitHub
+out/
+dist/
+ccache/
+.cache/
+
+# Imagens e binários gerados
+*.img
+*.zip
+*.bin
+*.cpio
+*.elf
+*.ko
+
+# Build intermediários
+*.o
+*.a
+*.so
+*.dex
+*.class
+*.apk
+*.jar
+
+# Logs
+*.log
+
+# Outros
+.DS_Store
+.idea/
+.vscode/
