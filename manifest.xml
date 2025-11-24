@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Branch principal -->
+    <remote  name="github"
+             fetch="https://github.com/chagasbezerra091-code/" />
+
+    <default revision="main"
+             remote="github"
+             sync-j="4" />
+
+    <!-- Core AOSP directories -->
+    <project path="art" name="android_art" />
+    <project path="bionic" name="android_bionic" />
+    <project path="bootable" name="android_bootable" />
+    <project path="build" name="android_build" />
+    <project path="frameworks/base" name="android_frameworks_base" />
+    <project path="frameworks/native" name="android_frameworks_native" />
+    <project path="hardware/interfaces" name="android_hardware_interfaces" />
+    <project path="hardware/libhardware" name="android_hardware_libhardware" />
+    <project path="libcore" name="android_libcore" />
+    <project path="packages/apps" name="android_packages_apps" />
+    <project path="packages/services" name="android_packages_services" />
+    <project path="prebuilts" name="android_prebuilts" />
+    <project path="system/core" name="android_system_core" />
+    <project path="system/bt" name="android_system_bt" />
+    <project path="system/sepolicy" name="android_system_sepolicy" />
+    <project path="tools" name="android_tools" />
+
+    <!-- Device tree para LG K41S -->
+    <project path="device/lge/k41s"
+             name="android_device_lge_k41s" />
+
+    <!-- Vendor blobs -->
+    <project path="vendor/lge/k41s"
+             name="android_vendor_lge_k41s" />
+
+    <!-- Kernel -->
+    <project path="kernel/lge/k41s"
+             name="android_kernel_lge_k41s" />
+
+</manifest>
